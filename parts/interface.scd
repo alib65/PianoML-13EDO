@@ -160,11 +160,6 @@
 				source = ~pianoML13LoadMIDI.value(path);
 				updateStatus.value("Loaded % notes from %. Its opening primes the model.".format(source[\notes].size, source[\name]));
 				refreshButtons.value;
-				if(\FluidDataSet.asClass.notNil) {
-					s.waitForBoot({ ~pianoML13FluCoMaAnalyze.value(source) });
-				} {
-					~pianoML13FluCoMaAnalyze.value(source);
-				};
 			} { |error|
 				updateStatus.value("Could not load MIDI: %".format(error.errorString));
 				error.reportError;

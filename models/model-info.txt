@@ -1,1 +1,1 @@
-Trained on 400 files: 9728 melody phrases (217459 notes), 21077 left-hand phrases (285360 onsets). Neural net loss 1.6167.
+Trained on 400 files: 9138 melody phrases (214531 notes), 19689 left-hand phrases (269845 onsets). Neural net loss 1.5974.

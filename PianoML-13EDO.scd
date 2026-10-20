@@ -27,7 +27,6 @@ var projectRoot = PathName(thisProcess.nowExecutingPath).pathOnly;
 (projectRoot +/+ "parts/learning.scd").load;
 (projectRoot +/+ "parts/lefthand.scd").load;
 (projectRoot +/+ "parts/corpus.scd").load;
-(projectRoot +/+ "parts/flucoma.scd").load;
 (projectRoot +/+ "parts/composer.scd").load;
 (projectRoot +/+ "parts/piano.scd").load;
 (projectRoot +/+ "parts/interface.scd").load;

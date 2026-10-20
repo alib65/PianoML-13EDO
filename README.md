@@ -49,7 +49,6 @@ Pitch class `0` is anchored to A4 (440 Hz). Playback uses only the Salamander C 
 - `parts/learning.scd` extracts melodies from the corpus and trains, saves, and loads the neural net and Markov models.
 - `parts/lefthand.scd` provides the left-hand forms and trains the learned left-hand model.
 - `parts/corpus.scd` reads the loaded MIDI file used to prime the model.
-- `parts/flucoma.scd` builds normalized phrase-feature data for the loaded MIDI file with FluCoMa.
 - `parts/composer.scd` generates the melody from the model and the accompaniment from the harmony.
 - `parts/piano.scd` defines sampled piano playback, sustain-pedal scheduling, MIDI export, and audio export.
 - `parts/interface.scd` provides the controls.
