@@ -1,7 +1,5 @@
 (
 var projectRoot = PathName(thisProcess.nowExecutingPath).pathOnly;
-// The corpus is the deduped, flat "midi" folder that lives directly inside
-// this SuperCollider folder (see supercollider/dedupe_chopin_midis.py).
 
 ~pianoML13 = (
 	projectRoot: projectRoot,
