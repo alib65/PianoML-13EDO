@@ -43,7 +43,7 @@ Pitch class `0` is anchored to A4 (440 Hz). Playback uses only the Salamander C 
 
 ## Corpus
 
-The `midi/` folder holds the Chopin training corpus: one performance per piece, curated down from [ilya16/PianoCoRe](https://github.com/ilya16/PianoCoRe), which includes many different performances of the same piece. Training on every performance would over-represent whichever pieces happened to be recorded most, so the duplicates were thinned out by hand to roughly one MIDI per piece before dropping the files in `midi/`.
+The `midi/` folder holds the Chopin training corpus: two performances per piece, curated down from [ilya16/PianoCoRe](https://github.com/ilya16/PianoCoRe), which includes many different performances of the same piece. Training on every performance would over-represent whichever pieces happened to be recorded most, so the duplicates were thinned out by hand to roughly two MIDIs per piece before dropping the files in `midi/`.
 
 ## Files
 
